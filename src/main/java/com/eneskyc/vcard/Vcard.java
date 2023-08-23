@@ -9,7 +9,7 @@ public class Vcard  {
 
     @GetMapping
     String getVcard(Model model) {
-        model.addAttribute("something", "Vcard icin ilk yazi");
+        model.addAttribute("something", "Vcard");
         return "vcard" ;
     }
 }
